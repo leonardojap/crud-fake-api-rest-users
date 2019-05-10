@@ -22,9 +22,12 @@ Dependencias:
 
 Servicios / Services:
 
-  Crear ususario / Create User: 
+  Crear ususario / Create User:
+  
   url: localhost:8000/api/users/create
+  
   metod: POST
+  
   Body:
     
     {
@@ -37,8 +40,11 @@ Servicios / Services:
   editar Usuario / Update Users:
 
 url: localhost:8000/api/users/update
-  metod: POST
-  Body:
+
+metod: POST
+
+Body:
+  
     {
       email: "yourEmail@something.something", // is required as id,
       name:...
@@ -48,11 +54,13 @@ url: localhost:8000/api/users/update
  buscar usuario por email / Find User by email:
  
  url: localhost:8000/api/users/:email
+ 
  metod: GET
   
  Eliminar Usuario / Delete User:
  
  url: localhost:8000/api/users/delete
+ 
  metod: DELETE
   
   
