@@ -1,3 +1,15 @@
+/*
+    This project no required any type of databases.
+    Is just to make test http locaaly as a fake api rest
+    you can create users, edit it, delete it, and find it
+
+    Author: Leonardo Alvarado
+    email: ing.leonardo92@gmail.com
+    Date: 10/05/2019
+    Venezuela.
+
+*/
+
 //Dependencies
 const express = require('express');
 const bodyParser = require('body-parser');
